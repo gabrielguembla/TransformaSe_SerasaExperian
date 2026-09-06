@@ -1,0 +1,79 @@
+*{
+    box-sizing: content-box;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+
+}
+
+
+h1{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    
+    text-align: center;
+    text-decoration: underline;
+    
+    color: blue;
+
+}
+
+a{
+    text-decoration: none;
+
+    color: rgb(13, 13, 152);
+}
+
+p{
+    text-align: justify;
+
+    line-height: 1.8;
+
+    color: chocolate;
+
+}
+
+.destaque{
+
+    font-style: italic;
+    font-weight: bold;
+
+    letter-spacing: 3px;
+    
+    color: red;
+
+}
+
+#rodape{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    
+    text-align: center;
+
+
+
+    background-color: #2b2b2b;
+
+
+
+}
+
+

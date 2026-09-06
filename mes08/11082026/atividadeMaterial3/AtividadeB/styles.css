@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+        
+}
+
+
+.caixa{
+    padding: 15px;
+
+    margin: 25px;
+
+    width: 250px;
+
+    border: 5px solid firebrick;
+
+    background-color: purple;
+}

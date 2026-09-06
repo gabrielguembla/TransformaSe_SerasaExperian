@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    
+    color: blue;
+
+}
+
+
+p:nth-of-type(2){
+    text-align: justify;
+
+    line-height: 1.8;
+
+    color: chocolate;
+
+}
+
+.destaque{
+
+    letter-spacing: 3px;
+
+}
+
