@@ -1,13 +1,16 @@
-/* body{
-    
+body{
 
-} */
+    box-sizing:  border-box;
+
+}
 
 main {
     display: flex;
-
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    gap: 30px;
 
     width: 100%;
     height: 100vh;
@@ -16,49 +19,76 @@ main {
     padding-inline: 0px;
 
     margin-block: 0;
-    margin-inline: 0px; 
+    margin-inline: 0px;
 
     background-color: rgb(21, 3, 109);
 
-}
+    & section {
+        display: flex;
+        flex-direction: row;
 
-main section{
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
 
+        width: 150px;
+        height: 80px;
 
-    padding-block: 15px;
-    padding-inline: 30px;
+        padding-block: 15px;
+        padding-inline: 30px;
 
-    margin-block: 0;
-    margin-inline: 5px; 
+        margin-block: 0;
+        margin-inline: 5px;
 
-    border-radius: 20px;
+        border-radius: 20px;
 
-}
+        &:nth-child(1) {
 
-main section:nth-child(1){
-    color: #554348;
+            flex-wrap: nowrap;
 
-    background-color: #93B7BE;
+            color: #554348;
 
-}
+            background-color: #f16900;
 
-main section:nth-child(2){
-    color: #D4F5F5;
+            & p {
 
-    background-color: #8C9A9E;
+                padding-block: 5px;
+                padding-inline: 10px;
 
-}
+                margin-block: 0;
+                margin-inline: 5px;
 
-main section:nth-child(3){
-    color: #8C9A9E;
+                background-color: bisque;
 
-    background-color: #554348;
-}
+                border-radius: 10px;
 
-main section:nth-child(4){
-    color: saddlebrown;
-    
-    background-color: #93B7BE;
+            }
 
+        }
+
+        &:nth-child(2) {
+
+            flex-wrap: wrap;
+
+            color: #D4F5F5;
+
+            background-color: #00c8ff;
+
+            & p {
+
+                padding-block: 5px;
+                padding-inline: 10px;
+
+                margin-block: 0;
+                margin-inline: 5px;
+
+                background-color: rgb(234, 0, 74);
+
+                border-radius: 10px;
+
+            }
+
+        }
+    }
 
 }
