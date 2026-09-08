@@ -8,7 +8,7 @@ Crie uma página com os seguintes requisitos:
 > - A tag pai dos cartões devem utilizar o atributo display no valor ***flex*** para serem responsivas.
 >
 >Exemplo:
->> selector {
+>>  selector {
 >>
 >>      display: flex
 >>
@@ -18,7 +18,7 @@ Crie uma página com os seguintes requisitos:
 >>
 >>      gap: 20px
 >>
->> }
+>>  }
 >>
 >
 > Cada cartão deve haver as seguintes especifícações:
