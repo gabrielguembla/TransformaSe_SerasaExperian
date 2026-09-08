@@ -9,9 +9,13 @@ Crie uma página com os seguintes requisitos:
 >
 >Exemplo:
 >> selector {
+>>
 >>      display: flex
+>>
 >>      flex-wrap: wrap
+>>
 >>      justify-a: center
+>>
 >>      gap: 20px
 >>
 >> }
