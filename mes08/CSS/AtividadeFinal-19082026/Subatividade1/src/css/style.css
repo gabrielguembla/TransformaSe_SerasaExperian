@@ -1,0 +1,84 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgb(6, 6, 121);
+
+
+    & h1 {
+        padding: 20px 5px;
+
+        font-family: Arial, Helvetica, sans-serif;
+
+        color: #6a1b9a;
+
+    }
+
+
+    & p {
+
+        font-size: 18px;
+        text-align: justify;
+
+        color: #333;
+
+
+    }
+
+}
+
+
+.destaque {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    width: 100%;
+
+    background-color: darkblue;
+
+    & section {
+
+        width: 250px;
+
+
+
+        background-color: firebrick;
+
+        border-radius: 20px;
+
+        box-shadow: 5px 5px 10px 5px firebrick;
+
+        &:hover {
+
+            width: calc(250px + 50px);
+
+
+        }
+
+
+        & img {
+
+            width: auto;
+            height: auto;
+
+            object-fit: cover;
+
+            border-radius: 20px;
+        }
+
+    }
+
+}
